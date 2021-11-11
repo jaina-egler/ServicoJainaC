@@ -1,6 +1,6 @@
 ﻿namespace ServicoJainaC
 {
-    partial class Service1
+    partial class ServicoJainaC
     {
         /// <summary> 
         /// Variável de designer necessária.
