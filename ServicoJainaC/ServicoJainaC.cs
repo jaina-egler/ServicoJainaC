@@ -19,7 +19,7 @@ namespace ServicoJainaC
         int Tempo = Convert.ToInt32(ConfigurationSettings.AppSettings["ThreadSleepTimeInMin"]);
         public Thread worker = null;
         int vezes = 0;
-        String path = "C:/Users/Developer05/source/repos/ServicoJainaC/ServicoJainaC/bin/Debug/arquivo.txt";
+        String path = System.AppDomain.CurrentDomain.BaseDirectory.ToString() +"arquivo.txt";
         public ServicoJainaC()
         {
             InitializeComponent();
